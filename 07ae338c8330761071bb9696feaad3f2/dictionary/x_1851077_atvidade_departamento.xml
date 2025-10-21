@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b1a2b49083f4761071bb9696feaad381" label="Departamento" max_length="40" name="x_1851077_atvidade_departamento" type="collection">
-        <element display="true" label="Nome" mandatory="true" max_length="40" name="nome" read_only="true" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="DEP ID" max_length="40" name="number" type="string"/>
-    </element>
-</database>

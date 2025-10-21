@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="90f609648378f61071bb9696feaad370" extends="task" label="Atestados" max_length="40" name="x_1851077_atvidade_atestados" type="collection">
+        <element label="Responsavel" max_length="32" name="responsavel" reference="x_1851077_atvidade_supervisores" type="reference"/>
+        <element label="Motivo da ausencia" max_length="40" name="motivo_da_ausencia" type="string"/>
+        <element label="Data de inicio" max_length="40" name="data_de_inicio" type="glide_date"/>
+        <element label="Anexo" mandatory="true" max_length="40" name="anexo" type="file_attachment"/>
+        <element label="Total de dias ausente" max_length="40" name="total_de_dias_ausente" type="integer"/>
+        <element label="Resposta" max_length="40" name="resposta" type="string"/>
+        <element label="Solicitante" max_length="32" name="solicitante" reference="x_1851077_atvidade_colaboradores" type="reference"/>
+        <element label="Data de volta" max_length="40" name="data_de_volta" type="glide_date"/>
+    </element>
+</database>

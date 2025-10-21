@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9cd4fd9883fc761071bb9696feaad321" extends="sys_user" label="Supervisores" max_length="40" name="x_1851077_atvidade_supervisores" type="collection">
-        <element label="Departamento" mandatory="true" max_length="40" name="departamento" reference="x_1851077_atvidade_departamento" type="reference"/>
-        <element label="Nome" mandatory="true" max_length="40" name="nome" type="string"/>
-    </element>
+    <element db_object_id="9cd4fd9883fc761071bb9696feaad321" extends="sys_user" label="Supervisores" max_length="40" name="x_1851077_atvidade_supervisores" type="collection"/>
 </database>

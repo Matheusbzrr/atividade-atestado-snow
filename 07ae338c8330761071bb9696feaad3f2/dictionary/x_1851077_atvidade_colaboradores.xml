@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0ad0395083fc761071bb9696feaad3e7" extends="sys_user" label="Colaboradores" max_length="40" name="x_1851077_atvidade_colaboradores" type="collection">
         <element label="Data de nascimento" mandatory="true" max_length="40" name="data_de_nascimento" type="glide_date"/>
-        <element label="Departamento" mandatory="true" max_length="32" name="departamentoid" reference="x_1851077_atvidade_departamento" type="reference"/>
         <element label="Idade" max_length="40" name="idade" type="integer"/>
-        <element label="Nome" mandatory="true" max_length="40" name="nome" type="string"/>
-        <index name="index">
-            <element name="departamentoid"/>
-        </index>
     </element>
 </database>

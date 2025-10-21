@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_actsub_module">
+    <sn_actsub_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <disable_notifications>false</disable_notifications>
+        <name>Atestados</name>
+        <order/>
+        <roles>x_1851077_atvidade.supervisores_user,x_1851077_atvidade.supervisores,x_1851077_atvidade.supervisor_user,x_1851077_atvidade.supervisor</roles>
+        <sys_class_name>sn_actsub_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 19:26:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7e07152883f8f61071bb9696feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Atestados</sys_name>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name>sn_actsub_module_7e07152883f8f61071bb9696feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 19:26:16</sys_updated_on>
+    </sn_actsub_module>
+    <sys_translated_text action="delete_multiple" query="documentkey=7e07152883f8f61071bb9696feaad379"/>
+</record_update>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>notificar_supervisor</internal_name>
+        <label_cache>[{"name":"f2bf9368-15eb-4796-b3e3-d654a1518ce0.Records","label":"1➛Supervisores Records","reference":"x_1851077_atvidade_supervisores","reference_display":"Supervisores Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2d6ddd9e-9fb0-42be-ad88-4f50a9ddf0a3.Records","label":"1➛Supervisores Records","reference":"x_1851077_atvidade_supervisores","reference_display":"Supervisores Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f2bf9368-15eb-4796-b3e3-d654a1518ce0.Table","label":"1➛Supervisores Table","reference":"x_1851077_atvidade_supervisores","reference_display":"Supervisores Table","type":"table_name","base_type":"table_name","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.solicitante.manager.email","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2":["ah_to"]},"attributes":null},{"name":"Created_1.current.solicitante.department.id","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Department➛ID","reference":"","reference_display":"ID","type":"string","base_type":"string","parent_table_name":"cmn_department","column_name":"id","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{},"attributes":null},{"name":"Created_1.current.solicitante.department","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"x_1851077_atvidade_colaboradores","column_name":"department","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"2d6ddd9e-9fb0-42be-ad88-4f50a9ddf0a3":["conditions"],"f2bf9368-15eb-4796-b3e3-d654a1518ce0":["conditions"],"038f7631-a977-413a-8af3-c620cb222371":["conditions"]},"attributes":null},{"name":"2d6ddd9e-9fb0-42be-ad88-4f50a9ddf0a3.__action_status__","label":"1➛Action Status","reference":null,"reference_display":"Action Status","type":"object","base_type":"object","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.current.solicitante","label":"Trigger - Record Created➛Atestado Record➛Solicitante","reference":"x_1851077_atvidade_colaboradores","reference_display":"Solicitante","type":"reference","base_type":"reference","parent_table_name":"x_1851077_atvidade_atestado","column_name":"solicitante","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2":["record"]},"attributes":null},{"name":"Created_1.current","label":"Trigger - Record Created➛Atestado Record","reference":"x_1851077_atvidade_atestado","reference_display":"Atestado","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"61e68f9e-7207-4e7d-ba14-87f101e0d4f3":["record"]},"attributes":{"":""}},{"name":"Created_1.current.solicitante.manager","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"x_1851077_atvidade_colaboradores","column_name":"manager","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2":["record"]},"attributes":null},{"name":"Created_1.current.solicitante.email","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_1851077_atvidade_colaboradores","column_name":"email","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Notificar Supervisor</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:54:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a464f06083f4f61071bb9696feaad3fd</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Notificar Supervisor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name>sys_hub_flow_a464f06083f4f61071bb9696feaad3fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 17:52:29</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-10-21 10:52:19">86b189e88338f61071bb9696feaad3a1</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_variable_value action="DELETE" query="document_key=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=a464f06083f4f61071bb9696feaad3fd^sys_idNOT INe464346083f4f61071bb9696feaad301"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>a464f06083f4f61071bb9696feaad3fd</id>
+        <name>Notificar Supervisor</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:54:04</sys_created_on>
+        <sys_id>e464346083f4f61071bb9696feaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:54:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=e464346083f4f61071bb9696feaad301"/>
+    <sys_hub_flow_input action="DELETE" query="model=a464f06083f4f61071bb9696feaad3fd^sys_idNOT INf05570e083f4f61071bb9696feaad3b9,f055b0e083f4f61071bb9696feaad300"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notificar Supervisor">a464f06083f4f61071bb9696feaad3fd</model>
+        <model_id>a464f06083f4f61071bb9696feaad3fd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:58:10</sys_created_on>
+        <sys_id>f05570e083f4f61071bb9696feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:58:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=f05570e083f4f61071bb9696feaad3b9"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Notificar Supervisor">a464f06083f4f61071bb9696feaad3fd</model>
+        <model_id>a464f06083f4f61071bb9696feaad3fd</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:58:10</sys_created_on>
+        <sys_id>f055b0e083f4f61071bb9696feaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:58:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=f055b0e083f4f61071bb9696feaad300"/>
+    <sys_hub_flow_output action="DELETE" query="model=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=a464f06083f4f61071bb9696feaad3fd^sys_idNOT IN68553c2083f4f61071bb9696feaad321"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Notificar Supervisor">a464f06083f4f61071bb9696feaad3fd</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:58:09</sys_created_on>
+        <sys_id>68553c2083f4f61071bb9696feaad321</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 17:00:20</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/91Z227jNhD9FUFPLeACutixnbfUzqIB0gS1ve1DkAqUSNrE0qQrUcp6g/x7qZt1oxxflEWSp8SkyDlzOHNmKD086xS4iOqX+oQzSAThTO/phAnkM0AX2w2SU14+Fci5NWAQCO5v9UsMaIB6Ovb5eoHWGwoE2g1yHyJfvzQNo6dHgIZovg1uoNxMbsHAurKtnj0ix/69/kv+giSQu23/rgx6K0Khj5h++fDY0zfAl7uI2MbzDu8tYd9SE9WHSWz44gIAiIDh2aZtWYZhjfqme2G7pgVtgFwsV6m4UIAVClrisdv68niiTAT6LhCDCO5YapLpIwDvGS0GVtK51Kc1+B6QH9Jy34g38xFG0kMPpbO7n07GXjqMp0CAufBDT4Q+ysnhxENByg1EGIRUTMpj6QP3m8TfZIkALs1Xcxqu2V1Ki77bID8sORIGEgTaxK7G2KXxOErmK/40y0F+ISyhJXOScg/Q3S8ghE/cUMRwnvUnwETgCO4ACJ0S55d6vHHMC4eITgt7cpwsl8h3CNuEItBfenqwDSYUBEGBWtLl/BfGRlMfstVO4nDq7csuEL8QRLPYDTyfbMSVJ0iUB/tLr8giP2RyC2d30M1cSqjdHcItCSTih2cd5/xlTuE8mGYh0zjTvNCXxAlNBoyW764lOOMgwzdrsMw8w3NEkSdKUYa/BuVff5IgIGxZQr8znow0rdNtGULKznlGH7sUkibpUc2fmqB0oCamibGLsGUMYy0xDdvFpjE0BgBD2zA8q6QmTXituEUtSCqqkg++iaJ0oydFIuwLnPrpZA4Z5UQ6KOyjas7kxLyoZO0saGZH0KyXprraR8nrLqLT4Wk1sPe5VlPlPOdOlWUAIyBXwNzH41U2WfK6nGLKn6SUnyClmPto6fOQwbqkxXtqRP6tPNGRiLrA+7bfbPGE9kt2kL++N0EtaI9UfnWvqDY23THqI0MKqS011B2Mx64HLIyHF0NkmTVFLfApQX8uJX0lcJQn1KaqytiPVClzhJ6eAbChrUcDPF9VAdu2amo69y7V86T29GmFmCPd8R0aK2ZDVpeUQJTPdaspDdNRIR/dCwoejb2BORx6Q3nZk4KC+8gFZt8agPHwwh4NaoLSALcPuFBwVZaY23Top1z+ZOAk2Fqk5ms69Q4ugu8jaQ5NkQAJERfY4/uO5HmQGih1APHJaonAcV+LT0W7KR7U5kjW8+T1Qmd9CBerRgciTf8uxyum4w72jrPfFHC6vFwyedc5hJoWKO+tQaoFSVRl/Q1unKg/GoyxrZYzPFbJWQGvHfjn6ZQOjKKoNR5VLdOhWRspk7+1xzkhD2sRVm5+9nRnXZFidk6K9Xak2Gd3hHkat16zTwH7oeth0v6cXhQ5Qw7HStEnWMte2SKouVtNrJCkl8prgDSlxXa7LENpP9+oinJYy7qo7gpeTHPd7SnX5ITm/xTH36bq1UIhqt6iOq98CA7BYGC3NPLj+psBFcRXPPg8NfDo6IpUwbq3EB63b31PZSksJV81mA4scp16ra5053mtrHWveX1+Fdv3XkOB4iPWp0X2ertWjxKOnCTtK8mZfYzcp4Ct+lf/SPDdMUcD0xgOHSAiAgFE8h8UCAB5Uweviplz9dDDHhhbqOVLtmGU9DBnp+aBUJBU1rxkmXaXThS87FO9lNhDRG/0kT5en5sDmFB5ok7KdMBDP3F5dj25n02df64Wkz+uZ87ser6Y3UwW19NuXgSycO0mCa3Kncf/AbHf6s71IQAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=a464f06083f4f61071bb9696feaad3fd^sys_idNOT INf1b189e88338f61071bb9696feaad33a,fe9049688338f61071bb9696feaad351"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Notificar Supervisor">a464f06083f4f61071bb9696feaad3fd</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 17:52:19</sys_created_on>
+        <sys_id>f1b189e88338f61071bb9696feaad33a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 17:52:19</sys_updated_on>
+        <ui_id>87a355bd-1b94-459b-9a29-46b1b3334b51</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X0U7bMBSGX6XKdds5TZOm3CEqJKYNJGDcIBQ59gn15CYhsYEO8e47SZymlFLKCBKduEH42D7+/fs7rnP5YAlu7Vkw9BwX/4wih9gDm/jg+T4bE8p8z3OHjtW1YjoDHEnTNEtuqQwyoHkSYwc2dNGD/3KRp5LOL5oImwrJM4itvcurrpXSDLMoyKy9h5WubWVIGoLEoftGR+e01vGiQDVPi45cZSK+Nu0fJs1ZHUwyXsgadC24VxBzQD0RlTl0rRmNOVVJNl9EMDU/iWUTmIpYVRue0ftc/MH1bI8UAyPALTLjxqIZGKeqcDShiqISzZTOFsYlgkFemcMholqqg+VYNeAkVQI3WU5RNJT17ETqWXxcOWItEiwdjM5RBKTFTgvpZh/R2TS5O61VHoq4NMV0yoRRuWhRhdaFWhV6Hiwtzte5ChJmmD+Y4algJCiORpQ5UeKsfy2x0Y9kcodacnEd9ykr9tNHv2n/EOOTMnxBM1Fs7iemwclds9zyoWrxKxY3Go4KjrxB6I2Jz3s8ImFv6DtujzIgPfBsF1zuMdd2rMeulc/zA0nzvDEKTyi40cU2K9uMQUHlcTGFZSJV+yjzFowXj11TRcSOBjAeD0hoE+IQ4ruM+A6EzsgbOZT7ayCNBEjebhFtoeJZER0aGS/JMyVUNoNy0NMyKud3jquO1kvJJ2SXagkXf08pfUzNvJ32yoJXkGcbYYOlH47fic7ijyF+CxE18d8rFavAr4r7F96dL97/f95H/ibUGGmQyoAhGO2CvsXqNein9fKrcgzaPGG6tF3wFbYnpqdzNGngJpvhrhDYhm1n8EX2pySbuZvYisYNSlyjSVRBy5f46+vXbE80dCaVgOeS6tc+mwLXsgoHSjy7ws/MgDLTt3OxfJW7rV3lw126yN//ERDUL8eCOiyeD/sEaP/xPtzIHyzBtngdsyTmohCbt1sKW0hZXPNIcP6aNFMSzZexmbRcDs33tOk0pTBs6+LfsUfNe2thV7AP2cYnBWvYqtxsFfQtFq9BPzerr4gxaJfNdQ/1ctrKQ91+4+1eMb4W6S+gPw3QV38BEkB+T8wUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=f1b189e88338f61071bb9696feaad33a"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Notificar Supervisor">a464f06083f4f61071bb9696feaad3fd</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 17:47:28</sys_created_on>
+        <sys_id>fe9049688338f61071bb9696feaad351</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 17:52:08</sys_updated_on>
+        <ui_id>7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Y227jNhD9FULPrla+yXH6tLURNECSBTZG+rBZCBRJ2exSokpRybqGf6i/0R/rUKIt+VLHygWbBfxkcXiZM8NzOKS/LBxOnXOnPzzz/DDq4YHX7XQ976wzHIbdYeSdDYZem2Kn5SQ4ZjASzwItofmARW7ai8VIMawZDdouyZViiXYzKTjhGieauTFO8JQpl8WYi+USwVTKs1Tg+d3zVyAzLigMdM6/fG05KVaATTPlnC+2uo4NTuCQCRg6kbuR6nlqmplWPJna9pUdf7sySkWN/27LYd81SygDxxEWGWs5gJ9iLdXcOdcqBwNESz8lYl4b8T3jf4OTM8/zTH/EIAJivDq1ZmATV5qjMdYY/OdE58oOJTPJCcvK2CmLcC70qG4rB3xKNZdJOUXjUKxmS5HHyU0ZvbNeYLVPYMkzAMFSE1+i1/Cj25l8/LxCecGTIhW2U0iCxbqFNSQszLXBs3CYYDEsFMQ4TSGNQarkAy8mA5bYnQpouJGQj+A049PExcQAdyGd2L0A+7gw32HFTRTXsAxMNsAFj3lBCMek3Fm2nGyejQTOsio8yGvwV27AlcHasIIyM2YKUTzVH8HnA7MRLFtWMJ7vh6Ef9gfdilNDEtFBGPl4QLoVjR6B2irG6ltQELgmnfauFgq0Tfl9BJYVvy8TInLK0B8rUIdwWuKHUgqGky3mTwDphwuTk4r9ncPst5Yd+s+4IZNTshJpiWAfxRxhtIZkjHrGUIEMvrBGPEOZOSnQRCJuo6rNaKG5zFGcZxqGaejRWE3hQzECYF2nJrre+5WcpYO1jvdy5afQ5OsLsE0PHerM3zjHQ0JqutuVXWPJHeF9JbnfRqM9WJoUlf7zZHWqKj9dVekdpBWhFZHKc6z5PWy5fAX2HwFzfaEqj93PK7jb8K0OqCR5sWmcbolhbHvQ5bhShPeiQvMxyyThkKusVlQeuZ5BmdhTH7qdTfFAteEFU/eL6LLqfgdiKm+cDbQU3TKsyOyCM2G2OsnjsGD/psYI3AhUsMVuW5DeSwUp0hYUhHtCdvggn6PO5vkt6bymu/vc87okRQb9L5on85gwJaUOIa3fik5679yXw9idJOaj4zPCFfkVaRajPEaJfIBLD6RWYyqRUR9cgSBrWLnl8h/Scv6udq379fL//vOcRZvJ/4h0rYtfmayd7FnZz3QstvT+++T6qhL64IWlz+/3u/6p9r249qWPtEOVTFMb2xvVv/bhl3qvolJN3JUWAU0ACVW7Mrkuq1/ze97TgKpKZ1KzH6Cl+47tqj4X3ZQdlvrthtQvT3pb4iZQ1zZePEhbeLVb4UkXL9YFz4KSzza2wvkbCKN/+L1BNs7YLA//ZETXhHGzUQvAD/zsiuR/RjX8s+1ppCvF3K5x7sPe5IXkn/52++FieH3S04OHL/M2iPPaL/wjnK94vPXAb/y+753e9z+evm/6vv/6H9FloY5oGQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=fe9049688338f61071bb9696feaad351"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_hub_flow_variable action="DELETE" query="model=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:58:10</sys_created_on>
+        <sys_id>f45570e083f4f61071bb9696feaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:58:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 16:58:10</sys_created_on>
+        <sys_id>fc55b0e083f4f61071bb9696feaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 16:58:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=a464f06083f4f61071bb9696feaad3fd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</application>
+        <file_path/>
+        <instance_id>1be0d5f2db82b15037d72a59139619b9</instance_id>
+        <instance_name>dev194471</instance_name>
+        <name>sys_hub_flow_a464f06083f4f61071bb9696feaad3fd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;labelCacheCleanUpExecuted=true&lt;/attributes&gt;&lt;authored_on_release_version&gt;28100&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority&gt;MEDIUM&lt;/flow_priority&gt;&lt;generation_source/&gt;&lt;internal_name&gt;notificar_supervisor&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"f2bf9368-15eb-4796-b3e3-d654a1518ce0.Records","label":"1➛Supervisores Records","reference":"x_1851077_atvidade_supervisores","reference_display":"Supervisores Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2d6ddd9e-9fb0-42be-ad88-4f50a9ddf0a3.Records","label":"1➛Supervisores Records","reference":"x_1851077_atvidade_supervisores","reference_display":"Supervisores Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f2bf9368-15eb-4796-b3e3-d654a1518ce0.Table","label":"1➛Supervisores Table","reference":"x_1851077_atvidade_supervisores","reference_display":"Supervisores Table","type":"table_name","base_type":"table_name","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.solicitante.manager.email","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Manager➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2":["ah_to"]},"attributes":null},{"name":"Created_1.current.solicitante.department.id","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Department➛ID","reference":"","reference_display":"ID","type":"string","base_type":"string","parent_table_name":"cmn_department","column_name":"id","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{},"attributes":null},{"name":"Created_1.current.solicitante.department","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","parent_table_name":"x_1851077_atvidade_colaboradores","column_name":"department","choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"2d6ddd9e-9fb0-42be-ad88-4f50a9ddf0a3":["conditions"],"f2bf9368-15eb-4796-b3e3-d654a1518ce0":["conditions"],"038f7631-a977-413a-8af3-c620cb222371":["conditions"]},"attributes":null},{"name":"2d6ddd9e-9fb0-42be-ad88-4f50a9ddf0a3.__action_status__","label":"1➛Action Status","reference":null,"reference_display":"Action Status","type":"object","base_type":"object","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.current.solicitante","label":"Trigger - Record Created➛Atestado Record➛Solicitante","reference":"x_1851077_atvidade_colaboradores","reference_display":"Solicitante","type":"reference","base_type":"reference","parent_table_name":"x_1851077_atvidade_atestado","column_name":"solicitante","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2":["record"]},"attributes":null},{"name":"Created_1.current","label":"Trigger - Record Created➛Atestado Record","reference":"x_1851077_atvidade_atestado","reference_display":"Atestado","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"61e68f9e-7207-4e7d-ba14-87f101e0d4f3":["record"]},"attributes":{"":""}},{"name":"Created_1.current.solicitante.manager","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"x_1851077_atvidade_colaboradores","column_name":"manager","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2":["record"]},"attributes":null},{"name":"Created_1.current.solicitante.email","label":"Trigger - Record Created➛Atestado Record➛Solicitante➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"x_1851077_atvidade_colaboradores","column_name":"email","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{},"attributes":null}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Notificar Supervisor&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 16:54:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a464f06083f4f61071bb9696feaad3fd&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;Notificar Supervisor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Atividade Atestado" source="x_1851077_atvidade"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Atividade Atestado"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_a464f06083f4f61071bb9696feaad3fd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 17:52:29&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record display_value="Created 2025-10-21 10:52:19"&gt;86b189e88338f61071bb9696feaad3a1&lt;/version_record&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=a464f06083f4f61071bb9696feaad3fd^sys_idNOT INe464346083f4f61071bb9696feaad301"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;a464f06083f4f61071bb9696feaad3fd&lt;/id&gt;&lt;name&gt;Notificar Supervisor&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 16:54:04&lt;/sys_created_on&gt;&lt;sys_id&gt;e464346083f4f61071bb9696feaad301&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 16:54:04&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e464346083f4f61071bb9696feaad301"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=a464f06083f4f61071bb9696feaad3fd^sys_idNOT INf05570e083f4f61071bb9696feaad3b9,f055b0e083f4f61071bb9696feaad300"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Notificar Supervisor"&gt;a464f06083f4f61071bb9696feaad3fd&lt;/model&gt;&lt;model_id&gt;a464f06083f4f61071bb9696feaad3fd&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 16:58:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f05570e083f4f61071bb9696feaad3b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Atividade Atestado"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 16:58:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f05570e083f4f61071bb9696feaad3b9"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Notificar Supervisor"&gt;a464f06083f4f61071bb9696feaad3fd&lt;/model&gt;&lt;model_id&gt;a464f06083f4f61071bb9696feaad3fd&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 16:58:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f055b0e083f4f61071bb9696feaad300&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Atividade Atestado"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 16:58:10&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f055b0e083f4f61071bb9696feaad300"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a464f06083f4f61071bb9696feaad3fd^sys_idNOT IN68553c2083f4f61071bb9696feaad321"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Notificar Supervisor"&gt;a464f06083f4f61071bb9696feaad3fd&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 16:58:09&lt;/sys_created_on&gt;&lt;sys_id&gt;68553c2083f4f61071bb9696feaad321&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 17:00:20&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/91Z227jNhD9FUFPLeACutixnbfUzqIB0gS1ve1DkAqUSNrE0qQrUcp6g/x7qZt1oxxflEWSp8SkyDlzOHNmKD086xS4iOqX+oQzSAThTO/phAnkM0AX2w2SU14+Fci5NWAQCO5v9UsMaIB6Ovb5eoHWGwoE2g1yHyJfvzQNo6dHgIZovg1uoNxMbsHAurKtnj0ix/69/kv+giSQu23/rgx6K0Khj5h++fDY0zfAl7uI2MbzDu8tYd9SE9WHSWz44gIAiIDh2aZtWYZhjfqme2G7pgVtgFwsV6m4UIAVClrisdv68niiTAT6LhCDCO5YapLpIwDvGS0GVtK51Kc1+B6QH9Jy34g38xFG0kMPpbO7n07GXjqMp0CAufBDT4Q+ysnhxENByg1EGIRUTMpj6QP3m8TfZIkALs1Xcxqu2V1Ki77bID8sORIGEgTaxK7G2KXxOErmK/40y0F+ISyhJXOScg/Q3S8ghE/cUMRwnvUnwETgCO4ACJ0S55d6vHHMC4eITgt7cpwsl8h3CNuEItBfenqwDSYUBEGBWtLl/BfGRlMfstVO4nDq7csuEL8QRLPYDTyfbMSVJ0iUB/tLr8giP2RyC2d30M1cSqjdHcItCSTih2cd5/xlTuE8mGYh0zjTvNCXxAlNBoyW764lOOMgwzdrsMw8w3NEkSdKUYa/BuVff5IgIGxZQr8znow0rdNtGULKznlGH7sUkibpUc2fmqB0oCamibGLsGUMYy0xDdvFpjE0BgBD2zA8q6QmTXituEUtSCqqkg++iaJ0oydFIuwLnPrpZA4Z5UQ6KOyjas7kxLyoZO0saGZH0KyXprraR8nrLqLT4Wk1sPe5VlPlPOdOlWUAIyBXwNzH41U2WfK6nGLKn6SUnyClmPto6fOQwbqkxXtqRP6tPNGRiLrA+7bfbPGE9kt2kL++N0EtaI9UfnWvqDY23THqI0MKqS011B2Mx64HLIyHF0NkmTVFLfApQX8uJX0lcJQn1KaqytiPVClzhJ6eAbChrUcDPF9VAdu2amo69y7V86T29GmFmCPd8R0aK2ZDVpeUQJTPdaspDdNRIR/dCwoejb2BORx6Q3nZk4KC+8gFZt8agPHwwh4NaoLSALcPuFBwVZaY23Top1z+ZOAk2Fqk5ms69Q4ugu8jaQ5NkQAJERfY4/uO5HmQGih1APHJaonAcV+LT0W7KR7U5kjW8+T1Qmd9CBerRgciTf8uxyum4w72jrPfFHC6vFwyedc5hJoWKO+tQaoFSVRl/Q1unKg/GoyxrZYzPFbJWQGvHfjn6ZQOjKKoNR5VLdOhWRspk7+1xzkhD2sRVm5+9nRnXZFidk6K9Xak2Gd3hHkat16zTwH7oeth0v6cXhQ5Qw7HStEnWMte2SKouVtNrJCkl8prgDSlxXa7LENpP9+oinJYy7qo7gpeTHPd7SnX5ITm/xTH36bq1UIhqt6iOq98CA7BYGC3NPLj+psBFcRXPPg8NfDo6IpUwbq3EB63b31PZSksJV81mA4scp16ra5053mtrHWveX1+Fdv3XkOB4iPWp0X2ertWjxKOnCTtK8mZfYzcp4Ct+lf/SPDdMUcD0xgOHSAiAgFE8h8UCAB5Uweviplz9dDDHhhbqOVLtmGU9DBnp+aBUJBU1rxkmXaXThS87FO9lNhDRG/0kT5en5sDmFB5ok7KdMBDP3F5dj25n02df64Wkz+uZ87ser6Y3UwW19NuXgSycO0mCa3Kncf/AbHf6s71IQAA&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=a464f06083f4f61071bb9696feaad3fd^sys_idNOT INf1b189e88338f61071bb9696feaad33a,fe9049688338f61071bb9696feaad351"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Ask For Approval"&gt;f8f2e9920b10030085c083eb37673abd&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Notificar Supervisor"&gt;a464f06083f4f61071bb9696feaad3fd&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 17:52:19&lt;/sys_created_on&gt;&lt;sys_id&gt;f1b189e88338f61071bb9696feaad33a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Atividade Atestado"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 17:52:19&lt;/sys_updated_on&gt;&lt;ui_id&gt;87a355bd-1b94-459b-9a29-46b1b3334b51&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+2X0U7bMBSGX6XKdds5TZOm3CEqJKYNJGDcIBQ59gn15CYhsYEO8e47SZymlFLKCBKduEH42D7+/fs7rnP5YAlu7Vkw9BwX/4wih9gDm/jg+T4bE8p8z3OHjtW1YjoDHEnTNEtuqQwyoHkSYwc2dNGD/3KRp5LOL5oImwrJM4itvcurrpXSDLMoyKy9h5WubWVIGoLEoftGR+e01vGiQDVPi45cZSK+Nu0fJs1ZHUwyXsgadC24VxBzQD0RlTl0rRmNOVVJNl9EMDU/iWUTmIpYVRue0ftc/MH1bI8UAyPALTLjxqIZGKeqcDShiqISzZTOFsYlgkFemcMholqqg+VYNeAkVQI3WU5RNJT17ETqWXxcOWItEiwdjM5RBKTFTgvpZh/R2TS5O61VHoq4NMV0yoRRuWhRhdaFWhV6Hiwtzte5ChJmmD+Y4algJCiORpQ5UeKsfy2x0Y9kcodacnEd9ykr9tNHv2n/EOOTMnxBM1Fs7iemwclds9zyoWrxKxY3Go4KjrxB6I2Jz3s8ImFv6DtujzIgPfBsF1zuMdd2rMeulc/zA0nzvDEKTyi40cU2K9uMQUHlcTGFZSJV+yjzFowXj11TRcSOBjAeD0hoE+IQ4ruM+A6EzsgbOZT7ayCNBEjebhFtoeJZER0aGS/JMyVUNoNy0NMyKud3jquO1kvJJ2SXagkXf08pfUzNvJ32yoJXkGcbYYOlH47fic7ijyF+CxE18d8rFavAr4r7F96dL97/f95H/ibUGGmQyoAhGO2CvsXqNein9fKrcgzaPGG6tF3wFbYnpqdzNGngJpvhrhDYhm1n8EX2pySbuZvYisYNSlyjSVRBy5f46+vXbE80dCaVgOeS6tc+mwLXsgoHSjy7ws/MgDLTt3OxfJW7rV3lw126yN//ERDUL8eCOiyeD/sEaP/xPtzIHyzBtngdsyTmohCbt1sKW0hZXPNIcP6aNFMSzZexmbRcDs33tOk0pTBs6+LfsUfNe2thV7AP2cYnBWvYqtxsFfQtFq9BPzerr4gxaJfNdQ/1ctrKQ91+4+1eMb4W6S+gPw3QV38BEkB+T8wUAAA=&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=f1b189e88338f61071bb9696feaad33a"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Send Email"&gt;c1806bf4a70323008299b39f087901cb&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;attributes/&gt;&lt;comment/&gt;&lt;compiled_snapshot/&gt;&lt;display_text/&gt;&lt;flow display_value="Notificar Supervisor"&gt;a464f06083f4f61071bb9696feaad3fd&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 17:47:28&lt;/sys_created_on&gt;&lt;sys_id&gt;fe9049688338f61071bb9696feaad351&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Atividade Atestado"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 17:52:08&lt;/sys_updated_on&gt;&lt;ui_id&gt;7e2a8dae-51a9-4b61-ade5-c1ef3a9b7cb2&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+1Y227jNhD9FULPrla+yXH6tLURNECSBTZG+rBZCBRJ2exSokpRybqGf6i/0R/rUKIt+VLHygWbBfxkcXiZM8NzOKS/LBxOnXOnPzzz/DDq4YHX7XQ976wzHIbdYeSdDYZem2Kn5SQ4ZjASzwItofmARW7ai8VIMawZDdouyZViiXYzKTjhGieauTFO8JQpl8WYi+USwVTKs1Tg+d3zVyAzLigMdM6/fG05KVaATTPlnC+2uo4NTuCQCRg6kbuR6nlqmplWPJna9pUdf7sySkWN/27LYd81SygDxxEWGWs5gJ9iLdXcOdcqBwNESz8lYl4b8T3jf4OTM8/zTH/EIAJivDq1ZmATV5qjMdYY/OdE58oOJTPJCcvK2CmLcC70qG4rB3xKNZdJOUXjUKxmS5HHyU0ZvbNeYLVPYMkzAMFSE1+i1/Cj25l8/LxCecGTIhW2U0iCxbqFNSQszLXBs3CYYDEsFMQ4TSGNQarkAy8mA5bYnQpouJGQj+A049PExcQAdyGd2L0A+7gw32HFTRTXsAxMNsAFj3lBCMek3Fm2nGyejQTOsio8yGvwV27AlcHasIIyM2YKUTzVH8HnA7MRLFtWMJ7vh6Ef9gfdilNDEtFBGPl4QLoVjR6B2irG6ltQELgmnfauFgq0Tfl9BJYVvy8TInLK0B8rUIdwWuKHUgqGky3mTwDphwuTk4r9ncPst5Yd+s+4IZNTshJpiWAfxRxhtIZkjHrGUIEMvrBGPEOZOSnQRCJuo6rNaKG5zFGcZxqGaejRWE3hQzECYF2nJrre+5WcpYO1jvdy5afQ5OsLsE0PHerM3zjHQ0JqutuVXWPJHeF9JbnfRqM9WJoUlf7zZHWqKj9dVekdpBWhFZHKc6z5PWy5fAX2HwFzfaEqj93PK7jb8K0OqCR5sWmcbolhbHvQ5bhShPeiQvMxyyThkKusVlQeuZ5BmdhTH7qdTfFAteEFU/eL6LLqfgdiKm+cDbQU3TKsyOyCM2G2OsnjsGD/psYI3AhUsMVuW5DeSwUp0hYUhHtCdvggn6PO5vkt6bymu/vc87okRQb9L5on85gwJaUOIa3fik5679yXw9idJOaj4zPCFfkVaRajPEaJfIBLD6RWYyqRUR9cgSBrWLnl8h/Scv6udq379fL//vOcRZvJ/4h0rYtfmayd7FnZz3QstvT+++T6qhL64IWlz+/3u/6p9r249qWPtEOVTFMb2xvVv/bhl3qvolJN3JUWAU0ACVW7Mrkuq1/ze97TgKpKZ1KzH6Cl+47tqj4X3ZQdlvrthtQvT3pb4iZQ1zZePEhbeLVb4UkXL9YFz4KSzza2wvkbCKN/+L1BNs7YLA//ZETXhHGzUQvAD/zsiuR/RjX8s+1ppCvF3K5x7sPe5IXkn/52++FieH3S04OHL/M2iPPaL/wjnK94vPXAb/y+753e9z+evm/6vv/6H9FloY5oGQAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=fe9049688338f61071bb9696feaad351"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 16:58:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f45570e083f4f61071bb9696feaad3fc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Atividade Atestado" source="x_1851077_atvidade"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Atividade Atestado"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 16:58:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-21 16:58:10&lt;/sys_created_on&gt;&lt;sys_id&gt;fc55b0e083f4f61071bb9696feaad306&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Atividade Atestado" source="x_1851077_atvidade"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Atividade Atestado"&gt;07ae338c8330761071bb9696feaad3f2&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-21 16:58:10&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=a464f06083f4f61071bb9696feaad3fd"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>111572861</payload_hash>
+        <record_name>Notificar Supervisor</record_name>
+        <reverted_from/>
+        <source>68b2c8d48370761071bb9696feaad3ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 17:52:29</sys_created_on>
+        <sys_id>18c10de88338f61071bb9696feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a07e6ad190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 17:52:29</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>d4c10de80738f610af3db5303cb27b1e</update_guid>
+        <update_guid_history>d4c10de80738f610af3db5303cb27b1e:111572861,31b189e86238f610ee531e10a983da70:282964311,a5a08968e438f610dec4a675e630c79b:-1314306249,0e9009685c38f610c578fd2e2b749497:-510371943,8d1eb4245d38f6108f51a0d27b3d3682:-1437742486,f50e3424b038f6109d4bc245c45b893e:-12674476,5ffdb0248538f610a2818b731caaa2e9:-1990773687,ab7df0e04038f61093d8af72b01488f7:-225552374,b4dcfc60b438f610ee89090ffb479bec:1513536522,e1bc3c60fe38f610443abf9080db88c2:-1306966486,ff8c34609338f610a399688272271473:360764759,cbdbbcec02f4f610cb383c56d1b55fee:2114021816,7ccbf8ecfef4f610efeabd95b98548b7:1244110615,5cb7bce4c4f4f610ee0f371658011407:-1698256865,c5a7f8e4a9f4f6106ecb55f5a42ee2fd:-1949489037,0c9778e463f4f6100bd298889e1dd871:1622987423,97d5b4241cf4f6107523c71829313c20:-1694144922,4355f0e0d0f4f6104069528b05caaa51:893340122,7c6474604bf4f610108dcdce16f49627:-438942480</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 21:02:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>7b47175ca95644338b5170150cc0a8f9</sys_id>
+        <sys_metadata>a464f06083f4f61071bb9696feaad3fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notificar Supervisor</sys_name>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_scope_delete display_value="">384d842078164e44b9e7a9b14edf0d44</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_a464f06083f4f61071bb9696feaad3fd</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_a464f06083f4f61071bb9696feaad3fd">18c10de88338f61071bb9696feaad31f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 21:02:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1851077_atvidade_departamento">x_1851077_atvidade_departamento</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>DEP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 22:17:21</sys_created_on>
+        <sys_id>aec4f89483f4761071bb9696feaad3b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEP</sys_name>
+        <sys_package display_value="Atvidade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Atvidade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name>sys_number_aec4f89483f4761071bb9696feaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:17:21</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</application>
+        <file_path/>
+        <instance_id>1be0d5f2db82b15037d72a59139619b9</instance_id>
+        <instance_name>dev194471</instance_name>
+        <name>sys_number_aec4f89483f4761071bb9696feaad3b8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1851077_atvidade_departamento">x_1851077_atvidade_departamento</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>DEP</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 22:17:21</sys_created_on><sys_id>aec4f89483f4761071bb9696feaad3b8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DEP</sys_name><sys_package display_value="Atvidade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package><sys_policy/><sys_scope display_value="Atvidade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope><sys_update_name>sys_number_aec4f89483f4761071bb9696feaad3b8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 22:17:21</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>317714481</payload_hash>
+        <record_name>DEP</record_name>
+        <reverted_from/>
+        <source>68b2c8d48370761071bb9696feaad3ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 22:17:22</sys_created_on>
+        <sys_id>f6c4fc9483f4761071bb9696feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a03b2d2520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:17:22</sys_updated_on>
+        <type>Number</type>
+        <update_guid>b6c4fc94ccf476108948ba1e73e4d52e</update_guid>
+        <update_guid_history>b6c4fc94ccf476108948ba1e73e4d52e:317714481</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 14:13:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>5e254282051243a48d69ca99d464c361</sys_id>
+        <sys_metadata>aec4f89483f4761071bb9696feaad3b8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEP</sys_name>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_parent display_value="">b1a2b49083f4761071bb9696feaad381</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_scope_delete display_value="">384d842078164e44b9e7a9b14edf0d44</sys_scope_delete>
+        <sys_update_name>sys_number_aec4f89483f4761071bb9696feaad3b8</sys_update_name>
+        <sys_update_version display_value="sys_number_aec4f89483f4761071bb9696feaad3b8">f6c4fc9483f4761071bb9696feaad32f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:13:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

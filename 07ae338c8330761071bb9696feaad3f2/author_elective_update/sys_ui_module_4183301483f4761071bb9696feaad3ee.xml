@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Departamento">c183301483f4761071bb9696feaad3e8</application>
+        <filter/>
+        <name>Departamentos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1851077_atvidade.departamento_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 22:11:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4183301483f4761071bb9696feaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departamentos</sys_name>
+        <sys_package display_value="Atvidade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Atvidade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_update_name>sys_ui_module_4183301483f4761071bb9696feaad3ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:11:47</sys_updated_on>
+        <table>x_1851077_atvidade_departamento</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</application>
+        <file_path/>
+        <instance_id>1be0d5f2db82b15037d72a59139619b9</instance_id>
+        <instance_name>dev194471</instance_name>
+        <name>sys_ui_module_4183301483f4761071bb9696feaad3ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Departamento">c183301483f4761071bb9696feaad3e8</application><filter/><name>Departamentos</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1851077_atvidade.departamento_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 22:11:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4183301483f4761071bb9696feaad3ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Departamentos</sys_name><sys_package display_value="Atvidade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package><sys_policy/><sys_scope display_value="Atvidade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope><sys_update_name>sys_ui_module_4183301483f4761071bb9696feaad3ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 22:11:47</sys_updated_on><table>x_1851077_atvidade_departamento</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>2104299496</payload_hash>
+        <record_name>Departamentos</record_name>
+        <reverted_from/>
+        <source>68b2c8d48370761071bb9696feaad3ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 22:11:47</sys_created_on>
+        <sys_id>8d83301483f4761071bb9696feaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a03adb7430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:11:47</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0d83301461f47610d407684de29f88f2</update_guid>
+        <update_guid_history>0d83301461f47610d407684de29f88f2:2104299496</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 14:13:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>a1821b06cf5b499c9f0da257deacb610</sys_id>
+        <sys_metadata>4183301483f4761071bb9696feaad3ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Departamentos</sys_name>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_scope_delete display_value="">384d842078164e44b9e7a9b14edf0d44</sys_scope_delete>
+        <sys_update_name>sys_ui_module_4183301483f4761071bb9696feaad3ee</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_4183301483f4761071bb9696feaad3ee">8d83301483f4761071bb9696feaad3f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 14:13:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

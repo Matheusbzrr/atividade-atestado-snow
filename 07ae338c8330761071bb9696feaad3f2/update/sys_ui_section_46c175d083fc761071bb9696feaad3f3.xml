@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="46c175d083fc761071bb9696feaad3f3" sys_domain="global" table="x_1851077_atvidade_colaboradores" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>nome</element>
+            <element>first_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-21 02:47:19</sys_created_on>
-            <sys_id>9192755483fc761071bb9696feaad327</sys_id>
+            <sys_created_on>2025-10-21 17:44:34</sys_created_on>
+            <sys_id>10fff0288338f61071bb9696feaad3df</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_colaboradores" sys_domain="global" view="Default view">46c175d083fc761071bb9696feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-21 02:47:19</sys_updated_on>
+            <sys_updated_on>2025-10-21 17:44:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 17:44:34</sys_created_on>
+            <sys_id>d4fff0288338f61071bb9696feaad3e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_colaboradores" sys_domain="global" view="Default view">46c175d083fc761071bb9696feaad3f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 17:44:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-21 02:47:19</sys_created_on>
-            <sys_id>5d92755483fc761071bb9696feaad327</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_colaboradores" sys_domain="global" view="Default view">46c175d083fc761071bb9696feaad3f3</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-21 02:47:19</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-21 02:47:19</sys_created_on>
-            <sys_id>1992755483fc761071bb9696feaad328</sys_id>
+            <sys_created_on>2025-10-21 17:44:34</sys_created_on>
+            <sys_id>54fff0288338f61071bb9696feaad3e1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_colaboradores" sys_domain="global" view="Default view">46c175d083fc761071bb9696feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-21 02:47:19</sys_updated_on>
+            <sys_updated_on>2025-10-21 17:44:34</sys_updated_on>
             <sys_user/>
-            <type>.split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>data_de_nascimento</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-21 02:47:19</sys_created_on>
-            <sys_id>d192755483fc761071bb9696feaad329</sys_id>
+            <sys_created_on>2025-10-21 17:44:34</sys_created_on>
+            <sys_id>d0fff0288338f61071bb9696feaad3e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_colaboradores" sys_domain="global" view="Default view">46c175d083fc761071bb9696feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-21 02:47:19</sys_updated_on>
+            <sys_updated_on>2025-10-21 17:44:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>departamentoid</element>
+            <element>department</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-21 02:47:19</sys_created_on>
-            <sys_id>9d92755483fc761071bb9696feaad329</sys_id>
+            <sys_created_on>2025-10-21 17:44:34</sys_created_on>
+            <sys_id>50fff0288338f61071bb9696feaad3e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_colaboradores" sys_domain="global" view="Default view">46c175d083fc761071bb9696feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-21 02:47:19</sys_updated_on>
+            <sys_updated_on>2025-10-21 17:44:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 17:44:34</sys_created_on>
+            <sys_id>dcfff0288338f61071bb9696feaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_colaboradores" sys_domain="global" view="Default view">46c175d083fc761071bb9696feaad3f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 17:44:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

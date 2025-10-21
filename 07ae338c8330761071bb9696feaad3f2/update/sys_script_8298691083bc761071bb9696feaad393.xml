@@ -11,7 +11,7 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_1851077_atvidade_atestado</collection>
+        <collection>x_1851077_atvidade_atestados</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
@@ -42,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8298691083bc761071bb9696feaad393</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Calcular dias em casa</sys_name>
         <sys_overrides/>
         <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
@@ -50,7 +50,7 @@
         <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
         <sys_update_name>sys_script_8298691083bc761071bb9696feaad393</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 02:07:18</sys_updated_on>
+        <sys_updated_on>2025-10-21 18:27:41</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

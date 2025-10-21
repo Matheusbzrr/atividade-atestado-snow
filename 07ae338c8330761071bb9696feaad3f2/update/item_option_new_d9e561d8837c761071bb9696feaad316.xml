@@ -10,7 +10,9 @@
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>javascript:gs.getUserID();&#13;
+&#13;
+</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -41,7 +43,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -53,14 +55,14 @@
         <pricing_implications>false</pricing_implications>
         <published_ref/>
         <question_text>Colaborador</question_text>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
-        <record_producer_table>x_1851077_atvidade_atestado</record_producer_table>
-        <reference>x_1851077_atvidade_colaborador</reference>
+        <record_producer_table>x_1851077_atvidade_atestados</record_producer_table>
+        <reference>sys_user</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -82,14 +84,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-21 01:53:01</sys_created_on>
         <sys_id>d9e561d8837c761071bb9696feaad316</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Colaborador</sys_name>
         <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
         <sys_update_name>item_option_new_d9e561d8837c761071bb9696feaad316</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-21 01:53:01</sys_updated_on>
+        <sys_updated_on>2025-10-21 18:32:36</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
