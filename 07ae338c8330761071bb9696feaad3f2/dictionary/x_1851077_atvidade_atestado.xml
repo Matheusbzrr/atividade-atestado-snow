@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d49f851083f8761071bb9696feaad379" label="Atestado" max_length="40" name="x_1851077_atvidade_atestado" type="collection">
+        <element label="Aprovado" max_length="40" name="aprovado" type="boolean"/>
+        <element label="Resposta" max_length="40" name="resposta" type="string"/>
+        <element label="Data de inicio" max_length="40" name="data_de_inicio" type="glide_date"/>
+        <element label="Anexo" max_length="40" name="anexo" type="file_attachment"/>
+        <element label="Total de dias ausente" max_length="40" name="total_de_dias_ausente" read_only="true" type="integer"/>
+        <element label="Data de volta" max_length="40" name="data_de_volta" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Motivo da ausencia" max_length="40" name="motivo_da_ausencia" type="string"/>
+    </element>
+</database>

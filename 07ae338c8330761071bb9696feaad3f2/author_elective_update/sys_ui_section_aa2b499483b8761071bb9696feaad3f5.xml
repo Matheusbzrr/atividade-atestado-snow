@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="aa2b499483b8761071bb9696feaad3f5" sys_domain="global" table="x_1851077_atvidade_supervisor" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nome</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 00:12:38</sys_created_on>
+            <sys_id>d72f89dc83b8761071bb9696feaad314</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 00:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 00:12:38</sys_created_on>
+            <sys_id>db2f89dc83b8761071bb9696feaad315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 00:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>departamento</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 00:12:38</sys_created_on>
+            <sys_id>972f89dc83b8761071bb9696feaad316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 00:12:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 00:12:38</sys_created_on>
+            <sys_id>532f89dc83b8761071bb9696feaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 00:12:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1851077_atvidade_supervisor</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-20 23:55:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa2b499483b8761071bb9696feaad3f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1851077_atvidade_supervisor</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+            <sys_update_name>sys_ui_section_aa2b499483b8761071bb9696feaad3f5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-20 23:55:06</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</application>
+        <file_path/>
+        <instance_id>1be0d5f2db82b15037d72a59139619b9</instance_id>
+        <instance_name>dev194471</instance_name>
+        <name>sys_ui_section_aa2b499483b8761071bb9696feaad3f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="aa2b499483b8761071bb9696feaad3f5" sys_domain="global" table="x_1851077_atvidade_supervisor" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>nome</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-21 00:12:38</sys_created_on><sys_id>d72f89dc83b8761071bb9696feaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 00:12:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-21 00:12:38</sys_created_on><sys_id>db2f89dc83b8761071bb9696feaad315</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 00:12:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>departamento</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-21 00:12:38</sys_created_on><sys_id>972f89dc83b8761071bb9696feaad316</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 00:12:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-21 00:12:38</sys_created_on><sys_id>532f89dc83b8761071bb9696feaad317</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1851077_atvidade_supervisor" sys_domain="global" view="Default view">aa2b499483b8761071bb9696feaad3f5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-21 00:12:38</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1851077_atvidade_supervisor</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 23:55:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>aa2b499483b8761071bb9696feaad3f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1851077_atvidade_supervisor</sys_name><sys_overrides/><sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package><sys_policy/><sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope><sys_update_name>sys_ui_section_aa2b499483b8761071bb9696feaad3f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 23:55:06</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>866091774</payload_hash>
+        <record_name>Supervisor</record_name>
+        <reverted_from/>
+        <source>68b2c8d48370761071bb9696feaad3ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 00:12:38</sys_created_on>
+        <sys_id>d32f89dc83b8761071bb9696feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a041c5b5d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 00:12:38</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>d32f89dcf3b87610c1f849464579fe1a</update_guid>
+        <update_guid_history>d32f89dcf3b87610c1f849464579fe1a:866091774,5d7ecd5c0cb87610f066d1a56e4386a9:1390739782,615bcd94c2b87610e6af11e7a639c087:-864727748,e62b899478b8761022700f83669a3c59:200174813,2e2b49941fb87610e5316a2eb2fd4cfa:-212656593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-21 02:56:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>6098fdb312624b56b7954949d8d5cf64</sys_id>
+        <sys_metadata>aa2b499483b8761071bb9696feaad3f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1851077_atvidade_supervisor</sys_name>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_parent display_value="">4ceac59083b8761071bb9696feaad31d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_scope_delete display_value="">384d842078164e44b9e7a9b14edf0d44</sys_scope_delete>
+        <sys_update_name>sys_ui_section_aa2b499483b8761071bb9696feaad3f5</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_aa2b499483b8761071bb9696feaad3f5">d32f89dc83b8761071bb9696feaad31b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-21 02:56:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

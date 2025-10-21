@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1851077_atvidade_colaboradores" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user_name</element>
+            <list_id display_value="x_1851077_atvidade_colaboradores" element="NULL" name="x_1851077_atvidade_colaboradores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">639cf91c8330b61071bb9696feaad37e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 03:31:10</sys_created_on>
+            <sys_id>6b9cf91c8330b61071bb9696feaad37f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 03:31:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>nome</element>
+            <list_id display_value="x_1851077_atvidade_colaboradores" element="NULL" name="x_1851077_atvidade_colaboradores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">639cf91c8330b61071bb9696feaad37e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 03:31:10</sys_created_on>
+            <sys_id>e79cf91c8330b61071bb9696feaad380</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 03:31:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_1851077_atvidade_colaboradores" element="NULL" name="x_1851077_atvidade_colaboradores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">639cf91c8330b61071bb9696feaad37e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 03:31:10</sys_created_on>
+            <sys_id>6f9cf91c8330b61071bb9696feaad380</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 03:31:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>idade</element>
+            <list_id display_value="x_1851077_atvidade_colaboradores" element="NULL" name="x_1851077_atvidade_colaboradores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">639cf91c8330b61071bb9696feaad37e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 03:31:10</sys_created_on>
+            <sys_id>e39cf91c8330b61071bb9696feaad381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 03:31:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>data_de_nascimento</element>
+            <list_id display_value="x_1851077_atvidade_colaboradores" element="NULL" name="x_1851077_atvidade_colaboradores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">639cf91c8330b61071bb9696feaad37e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 03:31:10</sys_created_on>
+            <sys_id>6b9cf91c8330b61071bb9696feaad381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 03:31:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>departamentoid</element>
+            <list_id display_value="x_1851077_atvidade_colaboradores" element="NULL" name="x_1851077_atvidade_colaboradores" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">639cf91c8330b61071bb9696feaad37e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 03:31:10</sys_created_on>
+            <sys_id>ef9cf91c8330b61071bb9696feaad381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 03:31:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1851077_atvidade_colaboradores</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-21 03:31:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>639cf91c8330b61071bb9696feaad37e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1851077_atvidade_colaboradores</sys_name>
+            <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+            <sys_update_name>sys_ui_list_x_1851077_atvidade_colaboradores_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-21 03:31:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

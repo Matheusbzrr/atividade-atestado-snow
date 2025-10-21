@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 22:48:27</sys_created_on>
+        <sys_id>4aeb38548338761071bb9696feaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1851077_atvidade_colaborador.x_1851077_atvidade.colaborador_user</sys_name>
+        <sys_package display_value="Atvidade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Atvidade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_security_acl display_value="x_1851077_atvidade_colaborador">42eb38548338761071bb9696feaad349</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4aeb38548338761071bb9696feaad34e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:48:27</sys_updated_on>
+        <sys_user_role display_value="x_1851077_atvidade.colaborador_user" name="x_1851077_atvidade.colaborador_user">c2eb74548338761071bb9696feaad351</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</application>
+        <file_path/>
+        <instance_id>1be0d5f2db82b15037d72a59139619b9</instance_id>
+        <instance_name>dev194471</instance_name>
+        <name>sys_security_acl_role_4aeb38548338761071bb9696feaad34e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-20 22:48:27</sys_created_on><sys_id>4aeb38548338761071bb9696feaad34e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1851077_atvidade_colaborador.x_1851077_atvidade.colaborador_user</sys_name><sys_package display_value="Atvidade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package><sys_policy/><sys_scope display_value="Atvidade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope><sys_security_acl display_value="x_1851077_atvidade_colaborador">42eb38548338761071bb9696feaad349</sys_security_acl><sys_update_name>sys_security_acl_role_4aeb38548338761071bb9696feaad34e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-20 22:48:27</sys_updated_on><sys_user_role display_value="x_1851077_atvidade.colaborador_user" name="x_1851077_atvidade.colaborador_user">c2eb74548338761071bb9696feaad351</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1493691785</payload_hash>
+        <record_name>x_1851077_atvidade_colaborador.x_1851077_atvidade.colaborador_user</record_name>
+        <reverted_from/>
+        <source>68b2c8d48370761071bb9696feaad3ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 22:48:27</sys_created_on>
+        <sys_id>caeb38548338761071bb9696feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a03cf484d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 22:48:27</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8aeb385497387610280ddf244750df52</update_guid>
+        <update_guid_history>8aeb385497387610280ddf244750df52:1493691785</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1851077_atvidade_colaborador.x_1851077_atvidade.colaborador_user">e6ee301c8338761071bb9696feaad36f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-20 23:01:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>44dfbef4b63146b493cb762e932f7910</sys_id>
+        <sys_metadata>4aeb38548338761071bb9696feaad34e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1851077_atvidade_colaborador.x_1851077_atvidade.colaborador_user</sys_name>
+        <sys_package display_value="Atividade Atestado" source="x_1851077_atvidade">07ae338c8330761071bb9696feaad3f2</sys_package>
+        <sys_parent display_value="">42eb38548338761071bb9696feaad349</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Atividade Atestado">07ae338c8330761071bb9696feaad3f2</sys_scope>
+        <sys_scope_delete display_value="">384d842078164e44b9e7a9b14edf0d44</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4aeb38548338761071bb9696feaad34e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4aeb38548338761071bb9696feaad34e">caeb38548338761071bb9696feaad353</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-20 23:01:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
